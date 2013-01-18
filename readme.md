@@ -8,7 +8,7 @@
 
 ![Buyvm 库存实时提醒](https://raw.github.com/unstop/Marknotice_Buyvm/master/assets/buyvm.png)
 
-实际上还可以用来展示很多其他的信息（比如 V2EX 即时提醒之类的）。
+稍微改一下代码就可以用来展示其他的信息了（比如 V2EX 即时提醒之类的）。
 
 #### 一些不足
 
