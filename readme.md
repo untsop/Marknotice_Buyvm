@@ -4,13 +4,17 @@
 
 由于我最近开始投资白银，希望视野内有一个实时价格，然后发现浏览器的书签栏很适合展示这个信息，于是就做了一个非常粗糙的实时价格书签。
 
-昨天看到 V2EX 上有一个帖子是问如何获得 Buyvm 的库存通知的，我觉得这个通知也适合用书签栏来展示，所以就收拾了一下代码，改成了 Buyvm 的库存实时提醒：![Buyvm 库存实时提醒](https://raw.github.com/unstop/Marknotice_Buyvm/master/assets/buyvm.png)
+昨天看到 V2EX 上有一个帖子是问如何获得 Buyvm 的库存通知的，我觉得这个通知也适合用书签栏来展示，所以就收拾了一下代码，改成了 Buyvm 的库存实时提醒：
+
+![Buyvm 库存实时提醒](https://raw.github.com/unstop/Marknotice_Buyvm/master/assets/buyvm.png)
 
 实际上还可以用来展示很多其他的信息（比如 V2EX 即时提醒之类的）。
 
 #### 一些不足
 
-* 由于 Chrome Bookmarks API 限制，拓展无法直接创建一个根目录书签，插件会在“其他书签”文件夹中创建一个书签，需要用户手动把它拖动到书签栏上，像这样：![手动拖拽到标签栏](https://raw.github.com/unstop/Marknotice_Buyvm/master/assets/drag_and_drop.png)
+* 由于 Chrome Bookmarks API 限制，拓展无法直接创建一个根目录书签，插件会在“其他书签”文件夹中创建一个书签，需要用户手动把它拖动到书签栏上，像这样：
+
+![手动拖拽到标签栏](https://raw.github.com/unstop/Marknotice_Buyvm/master/assets/drag_and_drop.png)
 
 * 刷新频率的限制：目前 Chrome 浏览器对书签更新的频率有限制，所以无法做到真正的实时刷新。
 
