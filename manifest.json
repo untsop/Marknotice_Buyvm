@@ -1,7 +1,7 @@
 {
   "name": "Marknotice - Buyvm",
   "version": "0.0.1",
-  "description": "Get Buyvm Stock Notice in Bookmark Bar.",
+  "description": "Get notification in the Bookmark Bar when Buyvm have stock",
   "permissions": [
     "bookmarks", "tabs"
   ],
