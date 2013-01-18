@@ -10,7 +10,7 @@
 
 1. 由于 Chrome 的 API 限制，拓展无法直接创建一个根目录书签，插件会在“其他书签”文件夹中创建一个书签，需要用户手动把它拖动到书签栏上，像这样：
 
-	![手动拖拽到标签栏](/asset/drag_and_drop.png)
+	![手动拖拽到标签栏](https://raw.github.com/unstop/Marknotice_Buyvm/master/assets/drag_and_drop.png)
 
 2. 刷新频率的限制
 
