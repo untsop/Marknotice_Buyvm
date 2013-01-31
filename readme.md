@@ -1,5 +1,9 @@
 ### Buyvm 有货通知 Chrome 拓展
 
+#### 搬迁通知
+
+这个库已经不再更新，搬迁至：[Marknotice](https://github.com/unstop/Marknotice)
+
 #### 简介
 
 由于我最近开始投资白银，希望视野内有一个实时价格，于是就基于 Chrome 的书签 API 做了一个非常粗糙的实时价格书签拓展。
